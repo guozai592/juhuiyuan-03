@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>聚惠园03栋｜楼层需求总览</title>
+<style>
+:root{--ink:#17324d;--muted:#65778a;--line:#dce5ec;--bg:#f3f7fa;--blue:#176b87;--teal:#16a085;--amber:#d48a22;--red:#bc4b46;--card:#fff}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 "Microsoft YaHei","PingFang SC",Arial,sans-serif}.shell{max-width:1180px;margin:auto;padding:30px 24px 56px}.hero{background:linear-gradient(120deg,#123d5b,#176b87 58%,#25a18e);color:white;border-radius:22px;padding:30px 34px;box-shadow:0 14px 32px #153a5522}.eyebrow{font-size:12px;letter-spacing:.12em;opacity:.8}.hero h1{font-size:30px;margin:7px 0 5px}.hero p{margin:0;max-width:760px;color:#e3f1f4}.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.stat{background:#ffffff1c;border:1px solid #ffffff37;border-radius:12px;padding:8px 12px;font-size:13px}.toolbar{display:flex;gap:12px;align-items:center;margin:20px 0 14px;flex-wrap:wrap}.search{flex:1;min-width:230px;border:1px solid var(--line);background:white;border-radius:12px;padding:12px 14px;font:inherit;color:var(--ink)}.filters{display:flex;flex-wrap:wrap;gap:7px}.filters button{border:1px solid var(--line);background:white;color:var(--ink);border-radius:999px;padding:8px 13px;font:inherit;cursor:pointer}.filters button.active{background:var(--ink);border-color:var(--ink);color:white}.legend{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:12px;margin:10px 2px 16px}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;background:var(--blue)}.dot.power{background:var(--amber)}.dot.confirm{background:var(--red)}.floor{margin:16px 0;background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:0 5px 16px #183b5510}@media(min-width:920px){.floor{height:calc((100vw - 48px)*.5625);max-height:664px;min-height:490px;display:flex;flex-direction:column}.floor-head{flex:none}.floor .cards{flex:1;min-height:0;overflow:auto;align-content:start;scrollbar-gutter:stable}}.floor-head{display:flex;align-items:center;gap:12px;padding:15px 19px;background:#f9fbfc;border-bottom:1px solid var(--line)}.floor-no{font-size:22px;font-weight:800;min-width:65px;color:var(--blue)}.floor-head h2{font-size:17px;margin:0}.floor-head p{margin:2px 0 0;color:var(--muted);font-size:13px}.tag{margin-left:auto;white-space:nowrap;font-size:12px;color:var(--blue);background:#e7f3f6;border-radius:999px;padding:5px 10px}.cards{padding:13px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.card{border:1px solid var(--line);border-radius:13px;padding:13px 14px;background:white}.card h3{font-size:14px;margin:0 0 7px;display:flex;align-items:center;gap:7px}.card ul{margin:0;padding-left:18px;color:#334d62;font-size:13px}.card li{margin:3px 0}.card .sub{color:var(--muted);font-size:12px;margin-top:7px}.badge{font-size:10px;font-weight:700;border-radius:5px;padding:2px 6px;background:#e9f3f6;color:var(--blue)}.badge.power{background:#fff3df;color:#9b620e}.badge.confirm{background:#fdeceb;color:#a13f39}.footer{margin-top:22px;padding:18px 20px;border-radius:15px;background:#e8eef3;color:#445d71;font-size:13px}.footer h3{margin:0 0 7px;color:var(--ink);font-size:14px}.footer ul{margin:0;padding-left:19px}.source{color:var(--muted);font-size:11px;margin-top:8px}details{margin-top:8px}summary{cursor:pointer;color:var(--blue);font-size:12px;font-weight:700}details ul{margin-top:6px!important}.empty{display:none;text-align:center;color:var(--muted);padding:24px}.hidden{display:none!important}@media(max-width:720px){.shell{padding:16px 12px 34px}.hero{padding:22px}.hero h1{font-size:24px}.cards{grid-template-columns:1fr}.floor-head{align-items:flex-start}.tag{font-size:11px}.floor-no{min-width:50px}}
+
+/* Four-card floor layout with larger, readable text */
+@media(min-width:721px){
+.shell{padding-top:18px;padding-bottom:30px}
+.hero{padding:20px 26px;border-radius:16px}
+.toolbar{margin:12px 0 8px;gap:8px}.filters{gap:5px}.filters button{padding:6px 10px;font-size:13px}.legend{margin:6px 2px 10px}
+.floor{margin:10px 0;border-radius:12px}
+.floor-head{padding:9px 14px;gap:9px}.floor-no{font-size:19px}.floor-head h2{font-size:15px}.floor-head p{font-size:12px}
+.floor .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding:10px 12px}
+.floor .card{display:block;padding:12px 14px;border:1px solid var(--line);border-radius:11px;background:#fff}
+.floor .card h3{margin:0 0 7px;padding:0;background:transparent;align-content:initial;font-size:15px;line-height:1.4}
+.floor .card ul{padding-left:19px;font-size:14px;line-height:1.5}
+.floor .card li{margin:3px 0}.floor .card .sub{padding:0;margin-top:7px;font-size:12px}
+.floor .source{font-size:10px;padding:0 12px 6px}
+}
+@media(max-width:720px){
+.shell{padding:12px 10px 26px}.hero{padding:17px;border-radius:14px}
+.floor{margin:10px 0;border-radius:12px}.floor-head{padding:9px 11px;gap:7px}
+.cards{grid-template-columns:1fr;padding:8px;gap:7px}.card{padding:11px 12px;border-radius:9px}
+.card h3{font-size:14px}.card ul{font-size:13px;line-height:1.45}
+}
+</style>
+</head>
+<body><main class="shell">
+<header class="hero"><div class="eyebrow">南京信息工程大学 · 聚惠园03栋</div><h1>楼层使用需求总览</h1><p>按楼层和部门汇总办公室、教学会议室、科研用房及机房配置。输入房号、部门或关键词筛选；橙色为重点机电需求，红色为待确认事项。</p></header>
+<div class="toolbar"><input id="q" class="search" type="search" placeholder="搜索房号、部门或配置，例如 N602、三相电、白板" aria-label="搜索楼层需求"><nav class="filters" aria-label="楼层筛选"><button class="active" data-filter="全部">全部</button><button data-filter="1">1F</button><button data-filter="2">2F</button><button data-filter="3">3F</button><button data-filter="4">4F</button><button data-filter="5">5F</button><button data-filter="6">6F</button><button data-filter="7">7F</button><button data-filter="8">8F</button><button data-filter="9">9F</button><button data-filter="10">10F</button><button data-filter="11">11F</button><button data-filter="12">12F</button><button data-filter="13">13F</button><button data-filter="14">14F</button></nav></div>
+<div class="legend"><span><i class="dot"></i>常规 / 房间配置</span><span><i class="dot power"></i>电力、通风、给排水等专项</span><span><i class="dot confirm"></i>需进一步确认</span></div>
+<section class="floor" data-floor="1" data-search="1层 1F 国资处 报告厅 会议室 接待室 等候区 展厅 101 102 103 104 105 106 107 108 109 LED 240寸 移动隔断"><div class="floor-head"><div class="floor-no">01F</div><div><h2>国资处｜报告厅、会议及接待空间</h2><p>房间101–109；含报告厅、会议室、接待室、等候区和展厅</p></div><span class="tag">会议 / 展示</span></div><div class="cards">
+<article class="card"><h3><span class="badge">101–103</span>报告厅</h3><ul><li>101：150人；102、103：各100人。</li><li>每间240寸（5.33×3.0米）主显示屏/LED、扩声音箱4只、控制柜1套、网口4个、演讲台1处。</li><li>五孔插座20个（按座位）；空调250W/㎡，新风25m³/h·人。</li></ul></article>
+<article class="card"><h3><span class="badge">104–106</span>会议 / 报告空间</h3><ul><li>104、105：18人会议室；五孔插座5个、网口2个、会议显示屏1台、音响2只。</li><li>105另设可移动隔断。</li><li>106：39人报告厅；五孔插座10个、网口2个、会议显示屏1台、音响2只，并设可移动隔断。</li><li>空调250W/㎡，新风25m³/h·人。</li></ul></article>
+<article class="card"><h3><span class="badge">107–108</span>接待室 / 等候区</h3><ul><li>107：8人接待室，五孔插座8个、网口2个。</li><li>108：等候区，每处4个普通五孔插座。</li><li>空调250W/㎡，新风25m³/h·人。</li></ul></article>
+<article class="card"><h3><span class="badge confirm">109</span>展厅（预留）</h3><ul><li>预留展陈地插/墙插1个、网口1个、空调1台及各专业设备接口。</li><li>本次仅做墙、顶、地普通装修；展陈和设备配置待入驻后通过二次装修确定。</li></ul></article>
+</div><div class="source">来源：1F办公室配置表；以上为设备标准配置列所列需求。</div></section>
+<section class="floor" data-floor="2" data-search="2层 研究生院 教务处 会议 教室 201 202 203 204 智慧教室"><div class="floor-head"><div class="floor-no">02F</div><div><h2>研究生院 · 教务处</h2><p>教学会议室为主；部分教务用房拟配置智慧教室</p></div><span class="tag">教学 / 会议</span></div><div class="cards">
+<article class="card"><h3><span class="badge">201–204</span>教学会议室</h3><ul><li>201、202：80人；主显示屏/LED、扩声音箱4只、控制柜、演讲台。</li><li>203、204：40人；会议显示屏、音响2只、演讲台；203另配无线投屏。</li><li>四间均配黑板和智能平板；按座位设插座。</li><li>空调250W/㎡，新风25m³/h·人。</li></ul><div class="sub">智能门锁需求在汇总文档中待确认。</div></article>
+<article class="card"><h3><span class="badge">部分房间</span>教务处</h3><ul><li>建议配置智慧教室功能；具体房号和设备标准需使用部门确认。</li><li>楼层卫生间按同层人数配比设置。</li></ul></article>
+<article class="card"><h3><span class="badge">表格标准化配置</span>教学会议室设备</h3><ul><li>201、202（80人）：按座位配五孔插座10个；主显示屏/LED 1套、扩声音箱4只、控制柜1套、网口4个、演讲台1处。</li><li>203（40人）：五孔插座10个、网口2个、无线投屏器1套、会议显示屏1台、音响2只、演讲台1处。</li><li>204（40人）：五孔插座10个、网口2个、会议显示屏1台、音响2只、演讲台1处。</li><li>80人/40人教室个性化列另有黑板和智能平板配置；空调250W/㎡、新风25m³/h·人。</li></ul></article></div></section>
+<section class="floor" data-floor="3" data-search="3层 水文院 301 345 人才办公室 院长 书记 实验室 资料室 白板 投影 大屏"><div class="floor-head"><div class="floor-no">03F</div><div><h2>水文院</h2><p>办公室、研究生用房、资料室及科研实验室</p></div><span class="tag">智能门锁</span></div><div class="cards">
+<article class="card"><h3><span class="badge">324–326</span>人才办公室</h3><ul><li>324：C类人才办公室，中央空调外另设挂壁空调。</li><li>325、326：C类人才办公室，各配白板、投影、大屏各1。</li><li>部分办公室列为重点装修。</li></ul></article>
+<article class="card"><h3><span class="badge">337–342</span>院领导及客座教授办公室</h3><ul><li>院长、书记、副院长、副书记及客座教授办公室各增8个五孔插座。</li><li>338书记办公室墙面用灰色乳胶漆。</li></ul></article>
+<article class="card"><h3><span class="badge">343–345</span>学院办公室 / 资料室 / 实验室</h3><ul><li>343学院办公室：增加3个电话接口。</li><li>344资料室：增加4个插座。</li><li>345科研实验室：增加4个插座和无线网面板。</li></ul></article>
+<article class="card"><h3><span class="badge">全层</span>标准配置</h3><ul><li>普通办公室按工位配置插座、网络；中央空调220W/㎡、新风30m³/h·人。</li><li>有个性化配置的办公室、资料室及实验室已勾选智能门锁。</li></ul><div class="sub">重点装修房间、专项机电信息以逐房表格为准。</div></article>
+<article class="card"><h3><span class="badge">表格标准化配置</span>按房型配置</h3><ul><li>正教授办公室：五孔插座4、网口2、电话口1；副教授办公室：五孔插座16、网口8、电话口4。</li><li>C/D类人才办公室：五孔插座4、网口2、电话口1；研究生及学院办公室：每工位五孔插座2、网口1、无电话口。</li><li>资料室：五孔插座4、网口2；科研实验室：五孔插座12、网口10。</li><li>空调220W/㎡、新风30m³/h·人。以上为表格设备标准列所填值；同类房间后续空白项按表格逐间记录。</li></ul></article></div></section>
+<section class="floor" data-floor="4" data-search="4层 自动化学院 教授 讲师 研究生 科研实验室 N401 N402 N403 W401 W402 W403 W404 配电箱 三相 水池 铜排"><div class="floor-head"><div class="floor-no">04F</div><div><h2>自动化学院</h2><p>办公室标准装修；科研用房需按设备配置强电和专用点位</p></div><span class="tag">科研用房专项</span></div><div class="cards">
+<article class="card"><h3><span class="badge">办公室</span>教授 / 讲师 / 研究生</h3><ul><li>教授办公室配80寸大屏；办公室均设智能门锁。</li><li>地砖、金属墙面、防火窗帘；空调220W/㎡、新风30m³/h·人。</li><li>讲师及研究生房按工位配置插座、网络和电话接口。</li></ul></article>
+<article class="card"><h3><span class="badge power">N401–N403</span>8人科研用房</h3><ul><li>每间30kVA入户、三相电。</li><li>左右墙各设3个配电箱；配三相空开及25A/16A/10A插座。</li><li>配电箱离地高于1.5米；门侧墙设80寸大屏。</li></ul></article>
+<article class="card"><h3><span class="badge power">W401–W403</span>4人科研用房</h3><ul><li>W401：10kVA入户、三相电；两侧各1个配电箱，侧墙80寸大屏。</li><li>W402、W403：30kVA入户、三相电；两侧墙各3个配电箱。</li><li>配电箱离地高于1.5米；W402另设清洗水池和水龙头。</li></ul></article>
+<article class="card"><h3><span class="badge power">W404 / E413</span>特殊用房</h3><ul><li>W404：墙根铜排用绝缘支架，与墙体隔开，单点接大楼总地网。</li><li>E413会议室：30人，配置80寸大屏。</li></ul></article>
+<article class="card"><h3><span class="badge">表格标准化配置</span>办公及科研用房</h3><ul><li>教授/讲师办公室：每人五孔插座4、网口2、电话口1。</li><li>研究生办公室：每工位五孔插座2、网口1、无电话口。</li><li>8人科研用房：五孔插座16、网口4；4人科研用房：五孔插座12、网口2；无电话口。</li><li>办公室与科研用房标准空调220W/㎡、新风30m³/h·人；个别房间未重复填写标准值。</li></ul></article></div></section>
+<section class="floor" data-floor="5" data-search="5层 自动化学院 教授 讲师 研究生 科研 N501 N503 W501 W504 服务器 机器人 无人机 380V 插座"><div class="floor-head"><div class="floor-no">05F</div><div><h2>自动化学院</h2><p>办公室标准配置；部分科研房间有设备、场地和三相电需求</p></div><span class="tag">局部强电需求</span></div><div class="cards">
+<article class="card"><h3><span class="badge">办公室</span>教授 / 讲师 / 研究生</h3><ul><li>教授、部分讲师办公室配80寸大屏；全层设智能门锁。</li><li>地砖、金属墙面、防火窗帘；按工位配置基础插座和网络。</li></ul></article>
+<article class="card"><h3><span class="badge">N501</span>8人科研用房</h3><ul><li>预留约2㎡服务器位置。</li><li>移动机器人路径规划及无人机协同实验需约6×6米空旷无遮挡场地，并放置服务器。</li></ul></article>
+<article class="card"><h3><span class="badge power">N503 / W501 / W504</span>科研用房</h3><ul><li>用电大于10kW，需380V和220V。</li><li>每间配16A三孔插座2个，五孔插座增至20个。</li></ul></article>
+<article class="card"><h3><span class="badge">表格标准化配置</span>办公及科研用房</h3><ul><li>教授/讲师办公室：每人五孔插座4、网口2、电话口1；研究生办公室每工位五孔插座2、网口1、无电话口。</li><li>8人科研用房：五孔插座16、网口4；4人科研用房：五孔插座12、网口2；无电话口。</li><li>标准空调220W/㎡、新风30m³/h·人。另有房间在个性化栏增配插座或提出场地需求。</li></ul></article></div></section>
+<section class="floor" data-floor="6" data-search="6层 自动化学院 教授 讲师 研究生 科研 N601 N602 N603 W601 三相 30kW 50kW 配电箱 80寸大屏"><div class="floor-head"><div class="floor-no">06F</div><div><h2>自动化学院</h2><p>科研房间强电需求较集中，配电箱位置需避开实验台</p></div><span class="tag">强电重点层</span></div><div class="cards">
+<article class="card"><h3><span class="badge">办公室</span>教授 / 讲师 / 研究生</h3><ul><li>教授、部分讲师办公室配80寸大屏；全层智能门锁。</li><li>地砖、金属墙面、防火窗帘；按工位配置基础插座和网络。</li></ul></article>
+<article class="card"><h3><span class="badge power">N601–N603</span>8人科研用房</h3><ul><li>N601：30kW以上并配三相电；N602、N603：各需50kW入户及三相电。</li><li>两侧墙和门侧布置多组配电箱，内配三相、16A及10A插座。</li><li>配电箱离地高于1.5米；各房门侧墙配80寸大屏。</li></ul></article>
+<article class="card"><h3><span class="badge power">W601</span>4人科研用房</h3><ul><li>需50kW入户及三相电；两侧墙布置配电箱和三相/16A/10A插座。</li><li>配电箱离地高于1.5米。</li></ul></article>
+<article class="card"><h3><span class="badge">表格标准化配置</span>办公及科研用房</h3><ul><li>教授/讲师办公室：每人五孔插座4、网口2、电话口1；研究生办公室每工位五孔插座2、网口1、无电话口。</li><li>8人科研用房：五孔插座16、网口4；4人科研用房：五孔插座12、网口2；无电话口。</li><li>标准空调220W/㎡、新风30m³/h·人；大屏、强电配电箱等列在其他特殊配置栏。</li></ul></article></div></section>
+<section class="floor" data-floor="7" data-search="7层 自动化学院 教授 讲师 研究生 科研实验室 智能门锁 80寸大屏"><div class="floor-head"><div class="floor-no">07F</div><div><h2>自动化学院</h2><p>以标准化办公室和科研用房配置为主</p></div><span class="tag">标准装修</span></div><div class="cards">
+<article class="card"><h3><span class="badge">办公室</span>教授 / 讲师 / 研究生</h3><ul><li>教授及部分讲师办公室配80寸大屏；全层设智能门锁。</li><li>地砖、金属墙面、防火窗帘；按工位配置基础插座和网络。</li></ul></article>
+<article class="card"><h3><span class="badge">科研用房</span>8人 / 4人科研用房</h3><ul><li>按标准设备配置，地砖、金属墙面、防火窗帘。</li><li>表内未提出额外电力、给排水或特殊通风要求。</li></ul></article>
+<article class="card"><h3><span class="badge">表格标准化配置</span>办公及科研用房</h3><ul><li>教授/讲师办公室：每人五孔插座4、网口2、电话口1；研究生办公室每工位五孔插座2、网口1、无电话口。</li><li>8人科研用房：五孔插座16、网口4；4人科研用房：五孔插座12、网口2；无电话口。</li><li>标准空调220W/㎡、新风30m³/h·人；房间表内空白项未作补充推断。</li></ul></article></div></section>
+<section class="floor" data-floor="8" data-search="8层 赵校长团队 智慧医疗 徐军团队 9.22 临江楼1717 会议室 教师办公室 算力机房 实验室 法拉第笼 玻璃白板 裸顶 宣传屏 打印区 水吧"><div class="floor-head"><div class="floor-no">08F</div><div><h2>8层团队补充需求｜智慧医疗徐军团队</h2><p>与赵校长团队同在8层；会议地点为临江楼1717</p></div><span class="tag">智慧医疗团队</span></div><div class="cards">
+<article class="card"><h3><span class="badge">办公室 / 会议室</span>沟通与显示</h3><ul><li>教师办公室、会议室内墙设玻璃白板。</li><li>3个会议室各设1个主显示屏。</li><li>会议室裸顶，16个插座，其中2个欧式插座。</li></ul></article>
+<article class="card"><h3><span class="badge power">算力机房</span>机房条件</h3><ul><li>抗静电地板、地面抬升、精密空调；不设喷淋。</li><li>插座16A；预留“5㎡电线”（按纪要原文记录，规格表述待核实）。</li></ul></article>
+<article class="card"><h3><span class="badge power">实验室</span>实验条件</h3><ul><li>增加1处移动隔断，预留法拉第笼空间及接口。</li><li>裸顶，四周设照明灯带。</li><li>设智能门锁；走廊设宣传屏。</li></ul></article>
+<article class="card"><h3><span class="badge confirm">配套调整</span>公共区域</h3><ul><li>取消水吧，保留打印区。</li><li>房间号及各项需求对应的具体房间待确认。</li></ul></article>
+</div></section>
+<section class="floor" data-floor="8" data-search="8层 赵校长团队 大学科技园 829 830 831 832 833 834 835 836 837 838 算力机房 UPS 精密空调 排风 380V"><div class="floor-head"><div class="floor-no">08F</div><div><h2>赵校长团队（大学科技园）</h2><p>院办、教师办公室、会议室、研究生办公室、科研实验室及算力机房</p></div><span class="tag">科研机电专项</span></div><div class="cards">
+<article class="card"><h3><span class="badge power">829</span>算力机房</h3><ul><li>UPS系统、双路核心网络、2台精密空调、门禁。</li><li>需结合设备明确供电容量及机房专项条件。</li></ul></article>
+<article class="card"><h3><span class="badge">830–834</span>办公 / 会议用房</h3><ul><li>830院长办公室约3kW；831、832教师办公室各约5kW。</li><li>833六人会议室约4kW，配投影和大屏。</li><li>834为20人研究生办公室，约12kW。</li></ul></article>
+<article class="card"><h3><span class="badge power">835–838</span>科研实验室</h3><ul><li>各预留给排水、排风、通风柜及万向排风罩接口。</li><li>各约20–25kW，预留一路380V三相电（16A），增加5个插座。</li><li>835、836注明抗静电地板。</li></ul></article>
+<article class="card"><h3><span class="badge">表格标准化配置</span>办公 / 会议 / 研究生用房</h3><ul><li>院长办公室：五孔插座4、网口2、电话口1；6人教师办公室：18、12、6。</li><li>6人会议室：五孔插座6、网口2、无电话口；20人研究生办公室按工位配五孔插座2、网口1、无电话口。</li><li>办公室及会议/研究生用房：空调220W/㎡、新风30m³/h·人。</li><li>科研实验室各项设备及接口按专项需求列示，不以通用办公标准替代。</li></ul></article></div></section>
+<section class="floor" data-floor="9,10,11,12" data-search="9层 10层 11层 12层 企业孵化预留 公共区域 电梯厅 走道 卫生间 办公区域 水电暖接口 入驻单位 装修 报规 审图"><div class="floor-head"><div class="floor-no">09–12F</div><div><h2>企业孵化预留</h2><p>9、10、11、12层统一预留，办公区域由后续入驻单位使用</p></div><span class="tag">公共区精装修</span></div><div class="cards">
+<article class="card"><h3><span class="badge">本次装修范围</span>公共区域</h3><ul><li>仅装修电梯厅、公共走道和卫生间。</li><li>各层公共区域装修标准、用材和做法保持一致。</li></ul></article>
+<article class="card"><h3><span class="badge">办公室 / 孵化空间</span>保留接口，暂不精装</h3><ul><li>独立办公区域不纳入本次精装修，仅预留水、电、暖接口。</li><li>平面图标示4个办公区域，面积约422、438、442、422㎡；对应规划人数约84、88、88、84人。</li></ul></article>
+<article class="card"><h3><span class="badge confirm">入驻单位责任</span>后续装修与报审</h3><ul><li>后续装修费用由入驻单位自行承担。</li><li>相关报规、审图流程由入驻单位自行完成。</li><li>文件未明确各层具体入驻企业或部门，后续需求由入驻单位另行提供。</li></ul></article>
+</div><div class="source">楼层目录及9–12层平面图标注“企业孵化预留”；装修范围按用户补充口径整理。</div></section>
+<section class="floor" data-floor="13" data-search="13层 化材院 1301 1348 1349 1350 1351 1352 1353 1354 1355 1356 1357 教授 副教授 会议 研讨 档案 储藏 研究生"><div class="floor-head"><div class="floor-no">13F</div><div><h2>化材院办公室</h2><p>办公室、会议研讨、档案储藏及研究生办公室</p></div><span class="tag">57间 · 标准装修满足</span></div><div class="cards">
+<article class="card"><h3><span class="badge">1301–1347</span>教授 / 副教授 / 讲师办公室</h3><ul><li>地砖、乳胶漆墙面、矿棉板吊顶；设智能门锁。</li><li>教授、副教授回路按20A预留；讲师办公室按20A预留。</li><li>中央空调220W/㎡、新风约30m³/h·人；部分房间门外开。</li></ul></article>
+<article class="card"><h3><span class="badge">1348–1349</span>会议室 / 研讨室</h3><ul><li>1348（20人）、1349（8人）：配大屏、投影。</li><li>预留视频会议终端和音响电源；门外开。</li></ul></article>
+<article class="card"><h3><span class="badge">1350–1352</span>档案室 / 储藏室</h3><ul><li>档案室插座回路按16A；两间储藏室分别按16A、12A预留。</li><li>门外开，采用标准装修。</li></ul></article>
+<article class="card"><h3><span class="badge">1353–1357</span>研究生办公室</h3><ul><li>每工位2个五孔插座、1个网络接口。</li><li>插座回路按16A预留；空调220W/㎡、新风约30m³/h·人。</li></ul></article>
+<article class="card"><h3><span class="badge">表格标准化配置</span>按房型配置</h3><ul><li>教授/副教授办公室：五孔插座4、网口2、电话口1；讲师办公室：每人五孔插座3、网口2、电话口1。</li><li>会议室/研讨室：五孔插座10、网口2；档案/储藏室：五孔插座4、网口2。</li><li>研究生办公室：每工位五孔插座2、网口1、无电话口。</li><li>空调220W/㎡、新风30m³/h·人；用电回路按房型和房间表要求配置。</li></ul></article></div></section>
+<section class="floor" data-floor="14" data-search="14层 科研实验室 聚慧园03科研实验室 张一洲 孙锦伟 李嘉诚 黄啸谷 吴红艳 李英 张超智 朱冬冬 曹晖 耿东生 李敬发 1401 1423 大功率 三相 100kw 通风橱 VOC 水槽 法拉第笼"><div class="floor-head"><div class="floor-no">14F*</div><div><h2>聚惠园03科研实验室配置表所列团队</h2><p>房间号为14xx；实验设备的电力、排风、地面和布局需求差异较大</p></div><span class="tag">实验室专表</span></div><div class="cards">
+<article class="card"><h3><span class="badge power">1401–1404、1407–1408、1413–1415、1419</span>5–8人实验室</h3><ul><li>多间申请50–100kW及三相电；增加大功率插座、32A空开或普通插座。</li><li>1401易挥发物品需通风橱及管路；1402、1403、1407、1413需通风橱管道和管式炉尾气回收；1415、1419有VOC/炉气排放。</li><li>1407、1413设水槽；1402吊柜；1403加约5米隔断作学生区。</li><li>多数需防腐、防滑、防水地面，不设吊顶。</li></ul></article>
+<article class="card"><h3><span class="badge power">1405–1406、1416–1417</span>15人实验室</h3><ul><li>1405与1406之间设贴墙移动门；配2个水槽、南北墙插座；1405排放蒸镀仪及紫外臭氧仪废气。</li><li>1416、1417配大功率插座独立回路；1417另设5个三相电插座。</li><li>各房间约100kW、三相电；防腐防滑防水地面，不设吊顶。</li></ul></article>
+<article class="card"><h3><span class="badge">1409–1412、1420–1423</span>2–3人实验室 / 库房</h3><ul><li>按设备配置三相插座、大功率插座或32A空开；用电需求约10–100kW不等。</li><li>1409提出隔间，约10㎡+30㎡；1411库房设1.5米双开门及观察窗，试剂柜接通风。</li><li>1423、1409、1420低温箱需三相电及空开；1422设备需接地线。</li><li>有需求的房间采用防腐防滑地面，不设吊顶。</li></ul></article>
+<article class="card"><h3><span class="badge confirm">专项核实</span>设备与工程条件</h3><ul><li>用电容量、回路、插座规格及三相需求需电气专业逐间复核。</li><li>排风管路、尾气处理、VOC排放及水槽位置需结合设备工艺深化。</li><li>实验室表格列有团队、房间及部分人员需求；实施前应与团队逐间确认。</li></ul></article>
+</div><div class="source">* 楼层由房间号14xx判断，源表未在标题中明确标注楼层。<article class="card"><h3><span class="badge">表格标准化配置</span>科研实验室基础项</h3><ul><li>8人实验室：房间表标准列记五孔插座20、网口2、无电话口；空调220W/㎡、新风30m³/h·人（1407）。</li><li>5人实验室：五孔插座15、网口2、无电话口；空调220W/㎡、新风30m³/h·人（1401）。</li><li>15人实验室：五孔插座30、网口4、无电话口；空调220W/㎡、新风30m³/h·人（1405–1406）。</li><li>3人实验室：五孔插座10、网口2、无电话口；2人实验室/库房：五孔插座10、网口2、无电话口（1411、1409）。其余房间有的将设备数量直接写入标准列，按房号专项核对。</li></ul></article></div></section>
+
+<div id="empty" class="empty">没有匹配的楼层需求</div>
+<footer class="footer"><h3>全楼共性建议与需确认事项</h3><ul><li>每层设置专用开水间：独立进水、水表、排水、防水防滑，预留380V电源和独立电表；公共区预留打印及售卖设备点位、分路计量，并留检修空间。</li><li>办公室、会议室、科研用房、机房等按区域独立智能计量并接入能耗平台；结合设备功率核算回路，必要时扩容并预留容量。</li><li>1层、2层部分房间的智慧教室建议尚未指定房号；卫生间按同层人数配比。</li><li>水文院提出3层露台与室内之间墙面开放以利用露台空间，需确认可行性。</li><li>徐军团队会议纪要未列聚惠园房间号；机房“5㎡电线”表述需核对原意。</li><li>9–12层为企业孵化预留，具体入驻企业/部门尚未明确。</li></ul><div class="source">来源：室内方案设计PDF、2F研究生院表、3F水文院表、自动化学院4–7F表、8F赵校长团队表、13F化材院表、科研实验室14xx配置表，以及9月22日智慧医疗团队会议纪要。文档中原有指令性文字仅作为需求材料整理。</div></footer>
+</main><script>
+const buttons=[...document.querySelectorAll('.filters button')],sections=[...document.querySelectorAll('.floor')],query=document.getElementById('q'),empty=document.getElementById('empty');let floor='全部';function update(){const q=query.value.trim().toLowerCase();let n=0;sections.forEach(s=>{const okFloor=floor==='全部'||s.dataset.floor.split(',').includes(floor);const text=(s.innerText+' '+s.dataset.search).toLowerCase();const okText=!q||text.includes(q);s.classList.toggle('hidden',!(okFloor&&okText));if(okFloor&&okText)n++});empty.style.display=n?'none':'block'}buttons.forEach(b=>b.addEventListener('click',()=>{floor=b.dataset.filter;buttons.forEach(x=>x.classList.toggle('active',x===b));update()}));query.addEventListener('input',update);
+</script></body></html>
+
+
+
+
+
